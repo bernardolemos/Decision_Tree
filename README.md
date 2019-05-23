@@ -4,14 +4,14 @@
 ## About
 ### This is an implementation of the [_ID3 algorithm_](https://en.wikipedia.org/wiki/ID3_algorithm) in java
 * Uses `entropy loss` to split nodes
-* Handles data as `discrete values`
+* Handles data as `descrete values`
 
 #### Reads data from `.csv` file
 * First line must be the header
 * Last column is `class`
 
 ## Usage
-### There two options:
+### Options:
 * Build decsion tree from training data and print decision tree
 * Build decsion tree from training data and predict values from test data file
 
