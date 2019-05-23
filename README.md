@@ -20,12 +20,12 @@
 2. Run compiled _DecisionTree_ 
 
 ### Options
-* Format: running option: `1` to print decision tree, otherwise predict values from test file (_path to test file next line_)
-* Input file: the path of the training data, a `.csv`file
-* Test file: if **_Format_** != `1`, the path to the test `.csv` file
+* Format: `1` to print decision tree, otherwise predict values from test file (_path to test file next line_)
+* Input file: the path of the training data, a `.csv` file
+* Test file: if **_Format_** != `1`, the path to the test data, a `.csv` file
 
 **_Examples_**:
-* Print learned desicion tree (_format is 1_)
+* Print learned decision tree (_format is 1_)
     ```
     java DecisionTree < ./examples/print_tree_example.txt
     ```
